@@ -346,6 +346,7 @@ public class WebDriverUtils {
 		String path=".\\screenshot\\"+screenShotName+j.getFormattedDate()+".png";
 		File dist=new File(path);
 		FileUtils.copyFile(src, dist);
+		
 		return dist.getAbsolutePath();
 			}
 		/**
